@@ -15,6 +15,7 @@ if(empty($_SESSION["ser"]))
 else
 {
     $semen = unserialize($_SESSION["ser"]);
+	$testaddion = 4 + 3;
 }
 if(isset($_POST["txt"])){
     if(isset($_POST["play"]))
